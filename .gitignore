@@ -9,12 +9,13 @@
 */**/*.test
 *un~
 .DS_Store
+
 */**/.DS_Store
 .ethtest
 */**/*tx_database*
 */**/*dapps*
 build/_vendor/pkg
-
+.vscode
 #*
 .#*
 *#
@@ -25,7 +26,7 @@ build/_vendor/pkg
 # used by the Makefile
 /build/_workspace/
 /build/bin/
-/geth*.zip
+/gesc*.zip
 
 # travis
 profile.tmp
